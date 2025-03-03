@@ -4,27 +4,27 @@
 <template>
     <div>
       <main>
-        <section class="bg-['../../public/hero.jpg'] bg-cover bg-center bg-no-repeat">
+        <section class=" bg-[#070707ec]">
           <div
-            class="container flex flex-col lg:flex-row items-center py-20 gap-10"
+            class="container flex flex-col lg:flex-row items-center lg:py-20 py-10 gap-10"
           >
-            <div class="flex-1 order-2 lg:order-1 text-center lg:text-left ml-14">
-              <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 text-balance">
-                Welcome to <span class="text-dodgeroll-gold">Comput AI</span> 
+            <div class="flex-1 sm:order-1 lg:order-1 text-center lg:text-left lg:ml-10 md:mr-6 ">
+              <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 text-white">
+                Welcome to <span class="text-orange-500">Comput </span>  <span class="text-dodgeroll-gold">AI</span>
               </h1>
-              <p class="text-xl lg:text-2xl mb-8 text-balance">
+              <p class="text-xl lg:text-2xl mb-8 text-white">
                 Create an AI Brain for your business based on a combination of all the available state of the art LLMs with Comput AI
               </p>
               <button
-                class="px-4 py-2 text-white self-start bg-dodgeroll-gold rounded-md text-lg cursor-pointer"
+                class="px-4 py-2 text-white self-start bg-orange-500 rounded-md text-lg cursor-pointer"
               >
                Get Started
               </button>
             </div>
-            <div class="flex-1 order-1 lg:order-2">
+            <div class="flex-1 order-2 lg:order-2">
               <NuxtImg
-                sizes="xs:100vw sm:667px "
-                src="#"
+                sizes=" xs:100vw sm:900px "
+                src="herogirl.png"
                 format="webp"
                 alt="Hero Page"
                 densities="x1"
