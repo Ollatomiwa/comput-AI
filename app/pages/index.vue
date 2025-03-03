@@ -10,16 +10,12 @@
           >
             <div class="flex-1 sm:order-1 lg:order-1 text-center lg:text-left lg:ml-10 md:mr-6 ">
               <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 text-white">
-                Welcome to <span class="text-orange-500">Comput </span>  <span class="text-dodgeroll-gold">AI</span>
+                Welcome to <span class="text-orange-500">COMPUT </span>  <span class="text-dodgeroll-gold">AI</span>
               </h1>
               <p class="text-xl lg:text-2xl mb-8 text-white">
                 Create an AI Brain for your business based on a combination of all the available state of the art LLMs with Comput AI
               </p>
-              <button
-                class="px-4 py-2 text-white self-start bg-orange-500 rounded-md text-lg cursor-pointer"
-              >
-               Get Started
-              </button>
+              <a href="/blog" class="bg-orange-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-dodgeroll-gold transition duration-300">Explore Blog</a>
             </div>
             <div class="flex-1 order-2 lg:order-2">
               <NuxtImg
@@ -32,6 +28,10 @@
             </div>
           </div>
         </section>
+    <!-- ====== About ====== -->
+        
+
+      <!-- ====== END About ====== -->
       </main>
       
     </div>
