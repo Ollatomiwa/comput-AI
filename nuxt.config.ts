@@ -29,8 +29,19 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxt/content'
   ],
+
+  content: {
+    // Optional: Customize the content module
+    markdown: {
+      remarkPlugins: ['remark-prism'], // Add syntax highlighting
+    },
+    highlight: {
+      theme: 'github-dark', // Choose a syntax highlighting theme
+    },
+  },
   
   googleFonts: {
     families: {
@@ -60,6 +71,10 @@ function defineNuxtConfig(config: {
   modules: string[];
   googleFonts: { families: { Montserrat: true; }; };
   tailwindcss: { exposeConfig: boolean; viewer: boolean; };
+  content: {
+    markdown: { remarkPlugins: string[]; };
+    highlight: { theme: string; };
+  };
 }) {
   return config;
 }
