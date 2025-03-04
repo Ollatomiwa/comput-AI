@@ -19,10 +19,10 @@
 
 <script setup>
 const { data: posts } = await useAsyncData('blog-posts', () => {
-  return queryContent().find(); // Fetch all content files
+  return queryContent('/blog').find();
 });
 
-console.log('All content files:', posts.value); // Debug all content files
+console.log('All content files:', posts.value); // Debugging
 
 const formatDate = (dateString) => {
   const date = new Date(dateString);

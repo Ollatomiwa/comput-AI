@@ -12,9 +12,9 @@
 </template>
 
 <script setup>
-const { path } = useRoute();
-const { data: post } = await useAsyncData(`blog-post-${path}`, () => {
-  return queryContent().where({ _path: path }).findOne();
+const route = useRoute();
+const { data: post } = await useAsyncData(`blog-post-${route.params.slug}`, () => {
+  return queryContent('/blog').where({ _path: `/blog/${route.params.slug}` }).findOne();
 });
 
 const formatDate = (dateString) => {
