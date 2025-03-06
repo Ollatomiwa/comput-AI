@@ -61,7 +61,7 @@ const closeMobileMenu = () => {
             <NuxtLink @click="closeMobileMenu" to="/" class="flex items-center">Home</NuxtLink>
           </li>
           <li class="p-2 text-sm text-white font-bold">
-            <NuxtLink @click="closeMobileMenu" to="#about" class="flex items-center">About</NuxtLink>
+            <NuxtLink @click="closeMobileMenu" to="/about" class="flex items-center">About</NuxtLink>
           </li>
           <li class="p-2 text-sm text-white font-bold">
             <NuxtLink @click="closeMobileMenu" to="#contact" class="flex items-center">Contact</NuxtLink>
