@@ -37,7 +37,7 @@ onMounted(async () => {
 <template>
   <div>
     <main>
-      <section class="bg-[#070707ec]">
+      <section class="bg-[#070707ec] h-screen flex items-center">
         <div
           class="container flex flex-col lg:flex-row items-center lg:py-20 py-10 gap-10"
         >
