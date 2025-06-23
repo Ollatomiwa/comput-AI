@@ -59,4 +59,7 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => ['ion-icon'].includes(tag), // Fix for ion-icon warning
     },
   },
+  runtimeConfig: {
+    hfApiKey: process.env.HF_API_KEY,
+  },
 });
