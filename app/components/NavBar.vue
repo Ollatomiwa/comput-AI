@@ -34,7 +34,7 @@ const closeMobileMenu = () => {
             <NuxtLink to="/about" class="flex items-center">About</NuxtLink>
           </li>
           <li class="p-2 text-sm text-white font-bold">
-            <NuxtLink to="#contact" class="flex items-center">Contact</NuxtLink>
+            <NuxtLink to="/generate-code.post" class="flex items-center">Get Code</NuxtLink>
           </li>
         </ul>
 
@@ -64,7 +64,7 @@ const closeMobileMenu = () => {
             <NuxtLink @click="closeMobileMenu" to="/about" class="flex items-center">About</NuxtLink>
           </li>
           <li class="p-2 text-sm text-white font-bold">
-            <NuxtLink @click="closeMobileMenu" to="#contact" class="flex items-center">Contact</NuxtLink>
+            <NuxtLink @click="closeMobileMenu" to="/generate-code.post" class="flex items-center">Get Code</NuxtLink>
           </li>
         </ul>
       </div>
