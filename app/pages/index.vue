@@ -59,7 +59,7 @@ onMounted(async () => {
               href="/blog"
               class="bg-orange-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-dodgeroll-gold transition duration-900 inline-block"
             >
-              Explore Blog
+              Generate Code
             </a>
           </div>
           <div class="flex-1 order-2 lg:order-2">
