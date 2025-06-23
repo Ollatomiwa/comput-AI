@@ -56,7 +56,7 @@ onMounted(async () => {
               the available state-of-the-art LLMs with Comput AI.
             </p>
             <a
-              href="/blog"
+              href="/generate-code.post"
               class="bg-orange-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-dodgeroll-gold transition duration-900 inline-block"
             >
               Generate Code
